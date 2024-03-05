@@ -9,6 +9,7 @@
   -moz-box-sizing: border-box;
 }
 
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -22,6 +23,33 @@
   clear: both;
 }
 
+.row-1 {
+  display: grid;
+  column-count: 3;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 10px;
+  row-gap: 1em;
+  
+}
+
+.row-2 {
+  display: grid;
+  column-count: 3;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 1em;
+  padding-top: 20px;
+}
+
+.row-3 {
+  display: grid;
+  column-count: 3;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 1em;
+  padding-top: 20px;
+  width: 100%;
+}
 /* Positioning Classes */
 
 
